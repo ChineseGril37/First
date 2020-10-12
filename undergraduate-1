@@ -1,0 +1,56 @@
+#include<iostream>
+using namespace std;
+void main()
+{
+
+	/*int number,g,s,b;
+	cout<<"This program used to ****"<<endl;
+	cin>>number;
+	b=number/100;
+	s=number/10%10;
+	g=number%10;
+	g=g*g*g+s*s*s+b*b*b;
+	if(g==number)
+		cout<<"This number is a *** number!"<<endl;
+	else
+		cout<<"This number is not a *** number!"<<endl;*/
+	/*int grade;
+	cout<<"This program used to ****"<<endl;
+	cin>>grade;
+	if(grade<0||grade>100)
+	{
+		cout<<"Error!";
+		return;
+	}
+	switch(grade/10)
+	{
+		case 10:
+		case 9:cout<<"A";break;
+		case 8:cout<<"B";break;
+		case 7:cout<<"C";break;
+		case 6:cout<<"D";break;
+		default:cout<<"E";
+	}*/
+	/*int a,b,c,max;
+	cout<<"This program used to find a max number"<<endl;
+	cout<<"Please input three numbers,use Tab,Enter,or space:"<<endl;
+	cin>>a>>b>>c;
+	max=a;
+	if(b>max)	
+		max=b;
+	if(c>max)
+		max=c;
+	cout<<max;*/
+	/*double a,b,c,area;
+	cout<<"本程序用于求三角形的面积"<<endl;
+	cout<<"请输入三角形的三条边长，以空格、Tab键或回车分隔："<<endl;
+	cin>>a>>b>>c;
+	if((a+b>c)&&(a+c>b)&&(b+c>a))
+	{
+		area=(a+b+c)/2;
+		area=sqrt(area*(area-a)*(area-b)*(area-c));
+		cout<<"三角形的面积是："<<area<<endl;
+	}
+	else
+		cout<<"error!"<<endl;*/
+}
